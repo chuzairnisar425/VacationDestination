@@ -1,0 +1,84 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: 100;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+
+}
+
+header {
+    padding: 50px;
+    background-color: cornflowerblue;
+    color: wheat;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 720px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main form {
+    width: 40%;
+}
+
+main article {
+    width: 45%;
+}
+
+#title {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+}
+
+input,
+textarea,
+#Destination_Details-Form,
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1 px solid #666;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.card{
+    padding:20px;
+    background-color: rgb(143, 144, 144);
+    margin-bottom: 20px;
+    width: 100%;
+}
+img{
+height: 214px;
+}

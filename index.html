@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Destinations WishList</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Vacation Destination</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, totam? Ex, recusandae.</p>
+
+    </header>
+    <main>
+        <form  id="Destination_Details_Form">
+            <label for="name">Add your Destination</label>
+            <input type="text" id="name" required>
+            <label for="location">
+                Add Your location
+            </label>
+            <input type="text" id="location" placeholder="where the destination is located">
+            <label for="photo">
+                Add Photo
+            </label>
+            <input type="url" id="photo" placeholder="Please provide the photo url">
+            <label for="description">
+                Give details
+            </label>
+            <textarea id="description" cols="30" rows="10"> </textarea>
+            <button type="submit">
+                Add to List
+            </button>
+        </form>
+
+        <article>
+            <h2 id="title">
+                Enter destination details
+            </h2>
+            <div id="container_details">
+                <!-- content generated in JavaScript -->
+                <!-- <div class="card">
+                    <img src="images/signpost.jpg" alt="">
+                    <div class="card-body">
+                        <h3>Destination Name</h3>
+                        <h4>Destination Located</h4>
+                        <p class="card-text"> Destination description</p>
+                        <button> Remove</button>
+                    </div>
+                </div> -->
+            </div>
+        </article>
+
+    </main>
+
+    <!-- Our JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
